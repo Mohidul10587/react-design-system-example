@@ -1,0 +1,23 @@
+
+@font-face {
+  font-family: 'Effra';
+  src: url('assets/fonts/Effra.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'DomaineSansText';
+  src: url('assets/fonts/Domaine.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'MyriadPro';
+  src: url('assets/fonts/MyriadPro.otf') format('opentype');
+}
+@font-face {
+  font-family: 'OpenSans';
+  src: url('assets/fonts/OpenSans.ttf') format('truetype');
+}
+
+
+h1, h2, h3, h4, p {
+  margin: 0;
+}
