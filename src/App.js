@@ -57,7 +57,7 @@ function App() {
           <Styled.Information>
             <div className="container">
               <p>
-                Por <span>Nicolas Troles</span>, postado em <span>28 de agosto de 2020.</span>
+                Por <span>Jessica Machado e Nicolas Troles</span>, postado em <span>28 de agosto de 2020.</span>
               </p>
             </div>
           </Styled.Information>
