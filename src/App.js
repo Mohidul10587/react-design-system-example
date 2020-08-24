@@ -32,7 +32,7 @@ function App() {
                 name="theme"
                 checked={currentTheme === estilo1}
                 value={estilo1}
-                onClick={() => setCurrentTheme(estilo1)}
+                onChange={() => setCurrentTheme(estilo1)}
               />
 
               <Form.Check
@@ -43,7 +43,7 @@ function App() {
                 value={estilo2}
                 checked={currentTheme === estilo2}
                 name="theme"
-                onClick={() => setCurrentTheme(estilo2)}
+                onChange={() => setCurrentTheme(estilo2)}
               />
             </Form>
           </div>

@@ -15,6 +15,12 @@ export const Wrapper = styled.div`
       display: flex;
       width: 960px;
       margin: ${theme.margin.mg0} auto;
+      
+      @media only screen and (max-width: 600px) {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 0 ${theme.padding.pd5};
+      }
     }
   `}
 `;
@@ -44,6 +50,7 @@ export const Header = styled.div`
         margin: ${theme.margin.mg0} 10px;
       }
       > div, label, input {
+        ${theme.bodyLargeTight}
         cursor: pointer !important;
       }
     }
