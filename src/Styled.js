@@ -22,6 +22,11 @@ export const Wrapper = styled.div`
         padding: 0 ${theme.padding.pd5};
       }
     }
+
+    a {
+      text-decoration: none;
+      color: ${theme.color.neutral.ultraLight};
+    }
   `}
 `;
 
