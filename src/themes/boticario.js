@@ -78,7 +78,7 @@ const defaultValues = {
     pd4: baseValueToRem(4), // 16px
     pd5: baseValueToRem(6), // 24px
     pd6: baseValueToRem(8), // 32px
-    pd7: baseValueToRem(10), // 40px
+    pd7: baseValueToRem(10), // 40pxgghgh
     pd8: baseValueToRem(12), // 48px
     pd9: baseValueToRem(14), // 56px
     pd10: baseValueToRem(16), // 64px
